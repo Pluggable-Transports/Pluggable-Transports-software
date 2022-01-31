@@ -1,0 +1,33 @@
+---
+layout: "package"
+permalink: "IPtProxy"
+description: >-
+  Obfs4proxy and Snowflake Pluggable Transports for iOS and Android.
+  Both Obfs4proxy and Snowflake Pluggable Transports are written in Go, which is a little annoying to use on iOS and Android. This project encapsulates all the machinations to make it work and provides an easy to install binary including a wrapper around both.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "MIT License"
+  url: "https://github.com/tladesignz/IPtProxy/blob/master/LICENSE"
+- icon: "fas fa-rss"
+  label: "news"
+  url: "https://guardianproject.info/blog"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/tladesignz/IPtProxy.git"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/tladesignz/IPtProxy/blob/master/README.md"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/tladesignz/IPtProxy/issues"
+maintainers:
+- name: "Benjamin Erhart"
+  contract: berhart@netzarchitekten.com
+versions:
+- id: "v1.4.0"
+  date: "2021-01-20"
+  url: "https://github.com/tladesignz/IPtProxy/commit/ca6e707555224ba17adfedc7c5aa65eeb987286c"
+languages:
+- name: "Go"
+---
