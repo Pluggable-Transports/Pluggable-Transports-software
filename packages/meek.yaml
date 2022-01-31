@@ -1,0 +1,36 @@
+---
+layout: "package"
+permalink: "meek"
+description: >-
+  meek is a blocking-resistant pluggable transport for Tor. It encodes a data
+  stream as a sequence of HTTPS requests and responses. Requests are reflected
+  through a hard-to-block third-party web server in order to avoid talking
+  directly to a Tor bridge. HTTPS encryption hides fingerprintable byte patterns
+  in Tor traffic.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "CC0 1.0 Universal"
+  url: "https://gitweb.torproject.org/pluggable-transports/meek.git/tree/COPYING"
+- icon: "fas fa-rss"
+  label: "news"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/meek/activity"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://gitweb.torproject.org/pluggable-transports/meek.git"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://gitlab.torproject.org/legacy/trac/-/wikis/doc/meek"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/meek/-/issues"
+maintainers:
+- name: "David Fifield"
+  contact: "david@bamsoftware.com"
+versions:
+- id: "v0.37.0"
+  date: "2021-09-03"
+  url: "https://gitweb.torproject.org/pluggable-transports/meek.git/tree/?h=v0.37.0"
+languages:
+- name: "Go"
+---

@@ -1,0 +1,41 @@
+---
+layout: "package"
+permalink: "stegotorus"
+description: >-
+  Stegoturs is a Free (as in freedom) pluggable transport (PT) development
+  framework, streamlining the job of developing smarter and stealthier pluggable
+  transports than the conventional ones currently in use.  Stegotorus framework
+  provides an API specifically geared towards the needs of steganographic
+  protocols. Using these API, developers can write PTs which can effectively
+  hide from deep packet inspection systems (DPI), but also resist
+  nondiscriminatory adversarial behaviours such as throttling or packet and
+  connection dropping.
+
+  Stegotorus disentangles the part of the PT code which manages the network
+  communications from the part responsible for encoding the information. In the
+  Stegotorus jargon, the former is known as protocol and the latter - as steg
+  modules. A system can have several protocols and steg modules working
+  together. In this way, different censorship countermeasures can be developed
+  to bypass censorship in modular forms. As well, one or many modules can be
+  used in different situations.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "BSD-3"
+  url: "https://github.com/TheTorProject/stegotorus/blob/master/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/TheTorProject/stegotorus"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/TheTorProject/stegotorus/tree/master/doc"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/TheTorProject/stegotorus/issues"
+versions:
+- id: "v0.0.1"
+  date: "2019-04-11"
+  url: "https://github.com/TheTorProject/stegotorus/releases/tag/v0.0.1"
+languages:
+- name: "C++"
+---
