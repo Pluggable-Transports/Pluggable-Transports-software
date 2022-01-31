@@ -1,0 +1,20 @@
+title: "Pluggable Transports - Software Repository"
+description: >-
+  A list of available Pluggable Transports packages, libraries and
+  implementations.
+logo: "/assets/ptpkg-logo.png"
+
+pkg_icon: "/assets/pkg.png"
+
+markdown_ext: "markdown,md,yaml"
+
+# TODO
+exclude:
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - LICENSE
+  - README.md
+  - doc/
+  - assets/ci/

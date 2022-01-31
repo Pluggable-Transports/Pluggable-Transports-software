@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.25/sc-2.0.4/datatables.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="{{ '/assets/style.css' | relative_url }}">
+    <script src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.25/sc-2.0.4/datatables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
+
+    <title>{{ page.title | default: site.title }}</title>
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:description" content="{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | escape | truncate: 160 | default: site.description | escape }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:title" content="
+      {%- if page.layout == "package" -%}
+        {{ page.name | remove: '.yaml' }} package
+      {%- else -%}
+        {{ site.title }}
+      {%- endif -%}
+      ">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="{{ page.icon | default: site.logo | absolute_url }}">
+    {%- if page.date -%}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+    {%- endif -%}
+    {%- if page.modified_date -%}
+    <meta property="article:modified_time" content="{{ page.modified_date | date_to_xmlschema }}" />
+    {%- endif -%}
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="
+      {%- if page.layout == "package" -%}
+        {{ page.name | remove: '.yaml' }} package
+      {%- else -%}
+        {{ site.title }}
+      {%- endif -%}
+      ">
+    <meta name="twitter:description" content="{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | escape | truncate: 160 | default: site.description | escape }}">
+    <meta name="twitter:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:image" content="{{ page.icon | default: site.logo | absolute_url }}">
+  </head>
+  <body>
+    <div class="bg-dark">
+      <div class="container-xl">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">
+              <img src="{{ '/assets/ptpkg-logo.png' | relative_url }}"
+                   width="45" height="45" alt="PT software"
+                   class="d-inline-block align-top">
+            </a>
+            <button type="button" class="navbar-toggler"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link"
+                    href="https://github.com/Pluggable-Transports/Pluggable-Transports-software/blob/main/README.md">
+                    <i class="fas fa-info-circle"></i>
+                    About
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"
+                    href="https://github.com/Pluggable-Transports/Pluggable-Transports-software/blob/main/CONTRIBUTING.md">
+                    <i class="far fa-plus-square"></i>
+                    Add / update software
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.pluggabletransports.info/">
+                    <i class="fas fa-home"></i>
+              <!-- TODO -->
+                    Pluggable Transports website
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container-xl my-4">
+    {{ content }}
+    </div>
+
+    {%- if page.layout == "package_index" -%}
+    <script>
+    var tabHeight = Math.round(window.innerHeight / 100) * 100 - 320;
+    if (tabHeight < 200) {
+      tabHeight = 200;
+    }
+    $(document).ready( function () {
+      $('#package-index').DataTable( {
+        scrollY:        tabHeight,
+        scrollCollapse: true,
+        scroller:       true,
+        order: [[ 4, "desc" ]],
+        columnDefs: [
+            {
+              targets: [0, 3, 4],
+              className: 'dt-body-center'
+            },
+            {
+              targets: 2,
+              width: '50%'
+            },
+            {
+              targets: 0,
+              orderable: false
+            }
+          ]
+        } );
+      $('input[type=search]').attr('placeholder', 'Search packages');
+    } );
+    </script>
+    <noscript>
+    <style type="text/css">
+      .collapse:not(.show) { display: block !important }
+    </style>
+    </noscript>
+    {%- endif -%}
+  </body>
+</html>

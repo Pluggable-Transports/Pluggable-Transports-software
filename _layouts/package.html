@@ -1,0 +1,117 @@
+---
+layout: default
+---
+
+<a href="{{ '/' | relative_url }}" role="button" class="btn btn-primary mb-4">
+  <i class="fas fa-arrow-left"></i> Back to Index
+</a>
+
+<a href="https://github.com/Pluggable-Transports/Pluggable-Transports-software/blob/main/packages/{{ page.permalink }}.yaml"
+   role="button" class="btn btn-warning mb-4 float-end">
+  <i class="fas fa-edit"></i> Edit
+</a>
+
+<div class="card rounded">
+  <div class="card-header card-header-mod">
+    <div class="row d-flex flex-wrap align-items-center">
+      <div class="col-sm-3 col-md-2 mb-2 mb-sm-0">
+        <img src="{{ page.icon | default: site.pkg_icon | relative_url }}"
+             class="d-block m-auto" alt="{{ page.permalink }}">
+      </div>
+      <div class="col-sm-9 col-md-10">
+        <h3 class="d-inline-block mr-2">{{ page.permalink }}</h3>
+        <b>
+          {{ page.versions.first.id }}
+          {%- if page.versions.first.date -%}
+            &nbsp;({{ page.versions.first.date }})
+          {%- endif -%}
+        </b>
+
+        <p class="indent">
+          {{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | escape }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    {%- assign first_version = true -%}
+    {%- for v in page.versions -%}
+    {%- for dep in v.depends -%}
+      {%- assign dep_name = dep | split: " " | first -%}
+    {%- endfor -%}
+    {%- if first_version == true -%}
+    <div class="mb-4">
+    {%- else -%}
+    <div class="my-5">
+      <h4>{{ v.id }}{%- if v.date -%}&nbsp;({{ v.date }}){%- endif -%}</h4>
+    {%- endif -%}
+      <div class="input-group input-group-mod">
+        <a href="{{ v.url }}" role="button"
+          class="btn btn-primary">
+          <i class="fas fa-download"></i>
+        </a>
+        {%- assign url_value = v.url -%}
+        <input type="text" class="form-control border-primary" disabled
+               value="{{ url_value }}">
+      </div>
+
+    {%- if first_version == true and page.versions.size > 1 -%}
+    {%- assign first_version = false -%}
+    <details class="p-2 mb-2">
+      <summary><i class="fas fa-history"></i> Version History</summary>
+    {%- endif -%}
+    {%- endfor -%}
+    {%- if page.versions.size > 1 -%}
+    </details>
+    {%- endif -%}
+
+    <div class="row">
+      <div class="col-sm">
+        <ul>
+          {%- for l in page.links -%}
+          <li>
+            <a href="{{ l.url }}"><span class="fixed-width">
+              <i class="{{ l.icon }}"></i>
+              </span>{{ l.label | escape | default: l.url }}
+            </a>
+          </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div class="col-sm pt-3">
+        <p>
+          <i class="fas fa-tools"></i>
+          <b>Maintainer{%- if page.maintainers.size > 1 -%}s{%- endif -%}:</b>
+        </p>
+        <ul>
+          {%- for m in page.maintainers -%}
+            <li>
+              {{ m.name | escape }} &nbsp;
+              &lt;{{ m.contact | escape }}&gt;</li>
+          {%- endfor -%}
+        </ul>
+        <p>
+          <i class="fas fa-code"></i>
+          <b>Language{%- if page.languages.size > 1 -%}s{%- endif -%}:</b>
+        </p>
+        <ul>
+          {%- for l in page.languages -%}
+            <li>
+              {{ l.name | escape }}</li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function doCopy(txt) {
+  var input = document.createElement ('input');
+  document.body.appendChild (input);
+  input.value = txt;
+  input.select();
+  document.execCommand ('copy', false);
+  input.remove ();
+}
+</script>

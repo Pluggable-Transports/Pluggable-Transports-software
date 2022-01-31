@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<table id="package-index" class="display">
+  <thead>
+    <tr>
+      <th>Icon</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Latest version</th>
+      <th>Latest update</th>
+    </tr>
+  </thead>
+  <tbody>
+  {%- for pkg in site.pages -%}
+  {%- if pkg.layout == "package" -%}
+    <tr>
+      <td><div class="icon"><img src="{{ pkg.icon | default: site.pkg_icon | relative_url }}" alt="icon"></div></td>
+      <td><a href="{{ pkg.permalink | relative_url }}">{{ pkg.permalink }}</a></td>
+      <td><div class="description">{{ pkg.description | strip_html | strip | escape }}</div></td>
+      <td>{{ pkg.versions[0].id }}</td>
+      <td>{{ pkg.versions[0].date }}</td>
+    </tr>
+  {%- endif -%}
+  {%- endfor -%}
+  </tbody>
+</table>

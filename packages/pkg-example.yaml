@@ -1,0 +1,45 @@
+---
+layout: "package"
+permalink: "pkg-example"
+description: >-
+  Example package to demonstrate the creation process of a PT package. Keep this
+  description brief. Describe the major features in the first two lines (160
+  characters).
+
+  Multiple lines are allowed. Each line may have maximal 80 characters.
+  Exceptions are URLs. Paragraphs, blank lines, and line breaks are ignored and
+  replaced by spaces.
+icon: "https://raw.githubusercontent.com/gnu-octave/pkg-example/main/doc/icon.png"
+links:
+- icon: "far fa-copyright"
+  label: "GPL-3.0-or-later"
+  url: "https://github.com/gnu-octave/pkg-example/blob/main/COPYING"
+- icon: "fas fa-rss"
+  label: "news"
+  url: "https://github.com/gnu-octave/pkg-example/releases/"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/gnu-octave/pkg-example/"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/gnu-octave/pkg-example/blob/main/README.md"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/gnu-octave/pkg-example/issues"
+maintainers:
+- name: "Kai T. Ohlhus"
+  contact: "k.ohlhus@gmail.com"
+- name: "Another Contactless Developer"
+  contact:
+versions:
+- id: "1.1.0"
+  date: "2021-04-06"
+  url: "https://github.com/gnu-octave/pkg-example/archive/1.1.0.tar.gz"
+- id: "1.0.0"
+  date: "2020-09-02"
+  url: "https://github.com/gnu-octave/pkg-example/archive/1.0.0.tar.gz"
+languages:
+- name: "C"
+- name: "C++"
+- name: "Fortran"
+---
