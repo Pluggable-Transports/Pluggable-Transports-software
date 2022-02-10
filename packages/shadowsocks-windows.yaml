@@ -1,0 +1,37 @@
+---
+layout: "package"
+permalink: "shadowsocks-windows"
+description: >-
+  A fresh implementation of Shadowsocks in Go.
+
+  Features:
+
+  - SOCKS5 proxy with UDP Associate
+  - Support for Netfilter TCP redirect on Linux (IPv6 should work but not
+    tested)
+  - Support for Packet Filter TCP redirect on MacOS/Darwin (IPv4 only)
+  - UDP tunneling (e.g. relay DNS packets)
+  - TCP tunneling (e.g. benchmark with iperf3)
+  - SIP003 plugins
+  - Replay attack mitigation
+icon: "https://raw.githubusercontent.com/shadowsocks/shadowsocks-windows/main/Shadowsocks.WPF/Resources/ssw128.png"
+links:
+- icon: "far fa-copyright"
+  label: "GPL-3.0"
+  url: "https://github.com/shadowsocks/shadowsocks-windows/blob/main/LICENSE.txt"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/shadowsocks/shadowsocks-windows"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/shadowsocks/shadowsocks-windows#readme"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/shadowsocks/shadowsocks-windows/issues"
+versions:
+- id: "4.4.1.0"
+  date: "2022-02-08"
+  url: "https://github.com/shadowsocks/shadowsocks-windows/releases/tag/4.4.1.0"
+languages:
+- name: "C#"
+---

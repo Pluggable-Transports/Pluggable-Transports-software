@@ -1,0 +1,41 @@
+---
+layout: "package"
+permalink: "marionette"
+description: >-
+  This code is still pre-alpha and is NOT suitable for any real-world
+  deployment.
+
+  Marionette is a programmable client-server proxy that enables the user to
+  control network traffic features with a lightweight domain-specific language.
+  The marionette system is described in [2] and builds on ideas from other
+  papers, such as Format-Transforming Encryption [1].
+
+  [1] Protocol Misidentification Made Easy with Format-Transforming Encryption
+      url: https://kpdyer.com/publications/ccs2013-fte.pdf
+  [2] Marionette: A Programmable Network Traffic Obfuscation System
+      url: https://kpdyer.com/publications/usenix2015-marionette.pdf
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "Apache-2.0"
+  url: "https://github.com/marionette-tg/marionette/blob/master/LICENSE"
+- icon: "fas fa-rss"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/marionette-tg/marionette/"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/marionette-tg/marionette#readme"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/marionette-tg/marionette/issues"
+maintainers:
+- name: "Kevin P. Dyer"
+  contact: "https://github.com/kpdyer"
+versions:
+- id: "v0.1.0"
+  date: "2015-05-27"
+  url: "https://github.com/marionette-tg/marionette/releases/tag/v0.1.0"
+languages:
+- name: "Python"
+---

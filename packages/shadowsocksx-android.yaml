@@ -1,0 +1,28 @@
+---
+layout: "package"
+permalink: "shadowsocks-android"
+description: >-
+  A shadowsocks client for Android.
+
+  Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
+icon: "https://shadowsocks.org/assets/img/favicon/apple-touch-icon.png"
+links:
+- icon: "far fa-copyright"
+  label: "GPL-3.0"
+  url: "https://github.com/shadowsocks/shadowsocks-android/blob/master/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/shadowsocks/shadowsocks-android"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/shadowsocks/shadowsocks-android#readme"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/shadowsocks/shadowsocks-android/issues"
+versions:
+- id: "v5.2.6"
+  date: "2021-17-09"
+  url: "https://github.com/shadowsocks/shadowsocks-android/releases/tag/v5.2.6"
+languages:
+- name: "Kotlin"
+---

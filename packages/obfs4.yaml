@@ -1,0 +1,43 @@
+---
+layout: "package"
+permalink: "obfs4"
+description: >-
+  This is a look-like nothing obfuscation protocol that incorporates ideas and
+  concepts from Philipp Winter's ScrambleSuit protocol. The obfs naming was
+  chosen primarily because it was shorter, in terms of protocol ancestery obfs4
+  is much closer to ScrambleSuit than obfs2/obfs3.
+
+  The notable differences between ScrambleSuit and obfs4:
+
+  - The handshake always does a full key exchange (no such thing as a Session
+    Ticket Handshake).
+  - The handshake uses the Tor Project's ntor handshake with public keys
+    obfuscated via the Elligator 2 mapping.
+  - The link layer encryption uses NaCl secret boxes (Poly1305/XSalsa20).
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "GPL-3.0"
+  url: "https://gitlab.com/yawning/obfs4/-/blob/master/LICENSE-GPL3.txt"
+- icon: "fas fa-rss"
+  label: "news"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/obfs4/activity"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://gitlab.com/yawning/obfs4"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://gitlab.com/yawning/obfs4/-/tree/master/doc"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/obfs4/-/issues"
+maintainers:
+- name: "Yawning Angel"
+  contact: "https://gitlab.com/yawning"
+versions:
+- id: "v0.0.13"
+  date: "2022-02-04"
+  url: "https://gitlab.com/yawning/obfs4/-/tags/obfs4proxy-0.0.13"
+languages:
+- name: "Go"
+---
