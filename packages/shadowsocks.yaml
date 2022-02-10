@@ -1,0 +1,24 @@
+---
+layout: "package"
+permalink: "shadowsocks"
+description: >-
+  Shadowsocks is a secure split proxy loosely based on SOCKS5.
+
+  client <---> ss-local <--[encrypted]--> ss-remote <---> target 
+
+  The Shadowsocks local client to the Shadowsocks remote component (ss-remote),
+  which decrypts and forwards to the target. Replies from target are similarly
+  encrypted and relayed by ss-remote back to ss-local, which decrypts and
+  eventually returns to the original client.
+icon: "https://shadowsocks.org/assets/img/favicon/apple-touch-icon.png"
+links:
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/shadowsocks/shadowsocks"
+versions:
+- id: "2.9.1"
+  date: "2017-01-02"
+  url: "https://github.com/shadowsocks/shadowsocks/releases/tag/2.9.1"
+languages:
+- name: "Python"
+---

@@ -1,0 +1,28 @@
+---
+layout: "package"
+permalink: "shadowsocks-rust"
+description: >-
+  This is a Rust port of shadowsocks. 
+
+  Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
+icon: "https://shadowsocks.org/assets/img/favicon/apple-touch-icon.png"
+links:
+- icon: "far fa-copyright"
+  label: "MIT"
+  url: "https://github.com/shadowsocks/shadowsocks-rust/blob/master/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/shadowsocks/shadowsocks-rust"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/shadowsocks/shadowsocks-rust#readme"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/shadowsocks/shadowsocks-rust/issues"
+versions:
+- id: "v1.13.1"
+  date: "2022-29-01"
+  url: "https://github.com/shadowsocks/go-shadowsocks2/releases/tag/v0.1.5"
+languages:
+- name: "Rust"
+---

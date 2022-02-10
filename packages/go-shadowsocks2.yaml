@@ -1,0 +1,36 @@
+---
+layout: "package"
+permalink: "go-shadowsocks2"
+description: >-
+  A fresh implementation of Shadowsocks in Go.
+
+  Features:
+
+  - SOCKS5 proxy with UDP Associate
+  - Support for Netfilter TCP redirect on Linux (IPv6 should work but not tested)
+  - Support for Packet Filter TCP redirect on MacOS/Darwin (IPv4 only)
+  - UDP tunneling (e.g. relay DNS packets)
+  - TCP tunneling (e.g. benchmark with iperf3)
+  - SIP003 plugins
+  - Replay attack mitigation
+icon: "https://shadowsocks.org/assets/img/favicon/apple-touch-icon.png"
+links:
+- icon: "far fa-copyright"
+  label: "Apache-2.0"
+  url: "https://github.com/shadowsocks/go-shadowsocks2/blob/master/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/shadowsocks/go-shadowsocks2"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://godoc.org/github.com/shadowsocks/go-shadowsocks2/"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/shadowsocks/go-shadowsocks2/issues"
+versions:
+- id: "v0.1.5"
+  date: "2021-01-05"
+  url: "https://github.com/shadowsocks/go-shadowsocks2/releases/tag/v0.1.5"
+languages:
+- name: "Go"
+---

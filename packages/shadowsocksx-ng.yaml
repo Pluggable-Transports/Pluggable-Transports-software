@@ -1,0 +1,29 @@
+---
+layout: "package"
+permalink: "shadowsocksx-ng"
+description: >-
+  Next Generation of ShadowsocksX
+
+  Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
+icon: "https://shadowsocks.org/assets/img/favicon/apple-touch-icon.png"
+links:
+- icon: "far fa-copyright"
+  label: "GPL-3.0"
+  url: "https://github.com/shadowsocks/ShadowsocksX-NG/blob/develop/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/shadowsocks/ShadowsocksX-NG"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/shadowsocks/ShadowsocksX-NG#readme"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/shadowsocks/ShadowsocksX-NG/issues"
+versions:
+- id: "v1.9.4"
+  date: "2019-13-11"
+  url: "https://github.com/shadowsocks/ShadowsocksX-NG/releases/tag/v1.9.4"
+languages:
+- name: "Swift"
+---
+
