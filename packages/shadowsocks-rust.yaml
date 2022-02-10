@@ -19,10 +19,13 @@ links:
 - icon: "fas fa-bug"
   label: "report a problem"
   url: "https://github.com/shadowsocks/shadowsocks-rust/issues"
+maintainers:
+- name: "Y. T. Chung"
+  contact: "zonyitoo@gmail.com"
 versions:
 - id: "v1.13.1"
   date: "2022-29-01"
-  url: "https://github.com/shadowsocks/go-shadowsocks2/releases/tag/v0.1.5"
+  url: "https://github.com/shadowsocks/shadowsocks-rust/releases/tag/v1.13.1"
 languages:
 - name: "Rust"
 ---
