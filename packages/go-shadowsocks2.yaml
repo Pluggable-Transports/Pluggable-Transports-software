@@ -28,6 +28,9 @@ links:
 - icon: "fas fa-bug"
   label: "report a problem"
   url: "https://github.com/shadowsocks/go-shadowsocks2/issues"
+maintainers:
+- name: "Rio"
+  contact: "https://github.com/riobard"
 versions:
 - id: "v0.1.5"
   date: "2021-01-05"
