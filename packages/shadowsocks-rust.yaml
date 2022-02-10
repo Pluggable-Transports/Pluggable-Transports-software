@@ -2,7 +2,7 @@
 layout: "package"
 permalink: "shadowsocks-rust"
 description: >-
-  This is a Rust port of shadowsocks. 
+  This is a Rust port of shadowsocks.
 
   Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
 icon: "https://shadowsocks.org/assets/img/favicon/apple-touch-icon.png"

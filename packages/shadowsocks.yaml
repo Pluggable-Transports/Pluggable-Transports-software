@@ -4,7 +4,7 @@ permalink: "shadowsocks"
 description: >-
   Shadowsocks is a secure split proxy loosely based on SOCKS5.
 
-  client <---> ss-local <--[encrypted]--> ss-remote <---> target 
+  client <---> ss-local <--[encrypted]--> ss-remote <---> target
 
   The Shadowsocks local client to the Shadowsocks remote component (ss-remote),
   which decrypts and forwards to the target. Replies from target are similarly

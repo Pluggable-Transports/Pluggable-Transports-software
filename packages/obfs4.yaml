@@ -8,7 +8,7 @@ description: >-
   is much closer to ScrambleSuit than obfs2/obfs3.
 
   The notable differences between ScrambleSuit and obfs4:
-  
+
   - The handshake always does a full key exchange (no such thing as a Session
     Ticket Handshake).
   - The handshake uses the Tor Project's ntor handshake with public keys
