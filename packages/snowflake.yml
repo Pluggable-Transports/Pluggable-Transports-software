@@ -1,0 +1,32 @@
+---
+layout: "package"
+permalink: "snowflake"
+description: >-
+  Snowflake is a pluggable transport that proxies traffic through temporary
+  proxies using WebRTC, a peer-to-peer protocol with built-in NAT punching. It
+  aims to work kind of like flash proxy, but without flash proxy's problems with
+  NAT.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "Other"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/blob/main/LICENSE"
+- icon: "fas fa-rss"
+  label: "news"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/activity"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake.git"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/tree/main/doc"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues"
+versions:
+- id: "v2.1.0"
+  date: "2022-02-08"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/tags/v2.1.0"
+languages:
+- name: "Go"
+---
