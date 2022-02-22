@@ -1,0 +1,32 @@
+---
+layout: "package"
+permalink: "lampshade"
+description: >-
+  Package lampshade provides a transport between Lantern clients and proxies
+  that provides obfuscated encryption as well as multiplexing. The protocol
+  attempts to be indistinguishable in content and timing from a random stream of
+  bytes, and mostly follows the OBFS4 threat model -
+  https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt#L35
+  
+  Lampshade attempts to minimize overhead, so it uses less padding than OBFS4.
+  Also, to avoid having to pad at all, lampshade coalesces consecutive small
+  writes into single larger messages when there are multiple pending writes. Due
+  to lampshade being multiplexed, especially during periods of high activity,
+  coalescing is often possible. 
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "Apache-2.0"
+  url: "https://github.com/getlantern/lampshade/blob/master/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/getlantern/lampshade"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://godoc.org/github.com/getlantern/lampshade"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/getlantern/lampshade/issues"
+languages:
+- name: "Go"
+---
