@@ -7,12 +7,12 @@ description: >-
   attempts to be indistinguishable in content and timing from a random stream of
   bytes, and mostly follows the OBFS4 threat model -
   https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt#L35
-  
+
   Lampshade attempts to minimize overhead, so it uses less padding than OBFS4.
   Also, to avoid having to pad at all, lampshade coalesces consecutive small
   writes into single larger messages when there are multiple pending writes. Due
   to lampshade being multiplexed, especially during periods of high activity,
-  coalescing is often possible. 
+  coalescing is often possible.
 icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
 links:
 - icon: "far fa-copyright"
