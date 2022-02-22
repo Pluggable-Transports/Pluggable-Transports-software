@@ -21,7 +21,7 @@ links:
   url: "https://gitlab.com/yawning/obfs4/-/blob/master/LICENSE-GPL3.txt"
 - icon: "fas fa-rss"
   label: "news"
-  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/obfs4/activity"
+  url: "https://gitlab.com/yawning/obfs4/activity"
 - icon: "fas fa-code-branch"
   label: "repository"
   url: "https://gitlab.com/yawning/obfs4"
@@ -30,7 +30,7 @@ links:
   url: "https://gitlab.com/yawning/obfs4/-/tree/master/doc"
 - icon: "fas fa-bug"
   label: "report a problem"
-  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/obfs4/-/issues"
+  url: "https://gitlab.com/yawning/obfs4/-/issue"
 maintainers:
 - name: "Yawning Angel"
   contact: "https://gitlab.com/yawning"
