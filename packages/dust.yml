@@ -1,0 +1,29 @@
+---
+layout: "package"
+permalink: "dust"
+description: >-
+  Dust is an Internet protocol designed to resist a number of attacks currently
+  in active use to censor Internet communication. While adherence to the
+  theoretical maxims of cryptographic security are observed where possible, the
+  focus of Dust is on real solutions to real attacks.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/blanu/Dust"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/blanu/Dust/tree/master/docs"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/blanu/Dust/issues"
+maintainers:
+- name: "Adelita"
+  contact: "adelita@operatorfoundation.org"
+versions:
+- id: "v1.0.1"
+  date: "2020-02-27"
+  url: "https://github.com/blanu/Dust/releases/tag/v1.0.1"
+languages:
+- name: "Go"
+---
