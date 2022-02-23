@@ -3,6 +3,10 @@
 ignore: |
   index.md
 
+# Only '*.yml' files allowed
+yaml-files:
+  - '*.yml'
+
 rules:
   braces:
     min-spaces-inside: 0
