@@ -23,6 +23,9 @@ links:
 - icon: "fas fa-bug"
   label: "report a problem"
   url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues"
+maintainers:
+- name: ""
+  contact: ""
 versions:
 - id: "v2.1.0"
   date: "2022-02-08"
