@@ -1,0 +1,30 @@
+---
+layout: "package"
+permalink: "optimizer"
+description: >-
+  Optimizer is a pluggable transport that works with your other transports to
+  find the best option. It has multiple configurable strategies to find the
+  optimal choice among the available transports. It can be used for numerous
+  optimization tasks, such as round robin load spreading among multiple transport
+  servers or minimizing latency given multiple transport configurations.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "MIT"
+  url: "https://github.com/OperatorFoundation/shapeshifter-transports/blob/main/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/OperatorFoundation/shapeshifter-transports/tree/main/transports/Optimizer/v3"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://pkg.go.dev/github.com/OperatorFoundation/shapeshifter-transports/transports/Optimizer/v3"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/OperatorFoundation/shapeshifter-transports/issues"
+versions:
+- id: "v3.0.12"
+  date: "2020-08-10"
+  url: "https://pkg.go.dev/github.com/OperatorFoundation/shapeshifter-transports/transports/Optimizer/v3@v3.0.12"
+languages:
+- name: "Go"
+---
