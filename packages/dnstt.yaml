@@ -1,0 +1,49 @@
+---
+layout: "package"
+permalink: "dnstt"
+description: >-
+  dnstt is a DNS tunnel that can use DNS over HTTPS (DoH) and DNS over TLS
+  (DoT) resolvers.
+
+  dnstt is a DNS tunnel with these features:
+   * Works over DNS over HTTPS (DoH) and DNS over TLS (DoT) as well as
+     plaintext UDP DNS.
+   * Embeds a sequencing and session protocol (KCP/smux), which means that
+     the client does not have to wait for a response before sending more data,
+     and any lost packets are automatically retransmitted.
+   * Encrypts the contents of the tunnel and authenticates the server by
+     public key.
+
+  dnstt is an application-layer tunnel that runs in userspace. It doesn't
+  provide a TUN/TAP interface; it only hooks up a local TCP port with a remote
+  TCP port (like netcat or `ssh -L`) by way of a DNS resolver. It does not
+  itself provide a SOCKS or HTTP proxy interface, but you can get the same
+  effect by running a proxy on the tunnel server and having the tunnel terminate
+  at the proxy.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "Public Domain"
+  url: ""
+- icon: "fas fa-rss"
+  label: "news"
+  url: "https://www.bamsoftware.com/software/dnstt/"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://www.bamsoftware.com/git/dnstt.git"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://www.bamsoftware.com/software/dnstt/"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://ntc.party/c/community-software/dnstt/33"
+maintainers:
+- name: "David Fifield"
+  contact: "david@bamsoftware.com"
+versions:
+- id: "v1.20220208.0"
+  date: "2022-08-02"
+  url: "https://repo.or.cz/dnstt.git/tree/refs/tags/v1.20220208.0"
+languages:
+- name: "Go"
+---
