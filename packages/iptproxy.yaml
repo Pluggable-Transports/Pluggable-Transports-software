@@ -26,7 +26,7 @@ links:
   url: "https://github.com/tladesignz/IPtProxy/issues"
 maintainers:
 - name: "Benjamin Erhart"
-  contract: "berhart@netzarchitekten.com"
+  contact: "berhart@netzarchitekten.com"
 versions:
 - id: "v1.4.0"
   date: "2021-01-20"
