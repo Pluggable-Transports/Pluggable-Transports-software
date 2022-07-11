@@ -1,0 +1,27 @@
+layout: "package"
+permalink: "Shapeshifter-Android-Java"
+description: "Shadow is a Pluggable Transport which is based on shadowsocks and which is designed to make network traffic look like shadowsocks traffic."
+icon: "https://github.com/OperatorFoundation/ShapeshifterAndroidJava/blob/main/shadow.png"
+links:
+- icon: "far fa-copyright"
+  label: "MIT"
+  url: "https://github.com/OperatorFoundation/ShapeshifterAndroidJava/blob/main/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/OperatorFoundation/ShapeshifterAndroidJava"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/OperatorFoundation/ShapeshifterAndroidJava/blob/main/README.md"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/OperatorFoundation/ShapeshifterAndroidJava/issues"
+maintainers:
+- name: "Operator Foundation"
+  contact: "contact@operatorfoundation.org"
+versions:
+- id: "3.1.0"
+  date: "2022-05-12"
+  url: "https://github.com/OperatorFoundation/ShapeshifterAndroidJava/archive/refs/tags/3.1.0.zip"
+languages:
+- name: "Java"
+---

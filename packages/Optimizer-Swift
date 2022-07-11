@@ -1,0 +1,35 @@
+layout: "package"
+permalink: "Optimizer-Swift"
+"description: ""Optimizer
+Optimizer is a pluggable transport that works with your other transports to find the best option. It has multiple configurable strategies to find the optimal choice among the available transports. It can be used for numerous optimization tasks, such as round robin load spreading among multiple transport servers or minimizing latency given multiple transport configurations.
+
+Optimizer supports several built-in strategies, as well as user-defined strategies:
+Rotate Strategy: rotates through the list of provided transports and tries the next one in the list each time a connection is needed.
+Choose Random Strategy: a transport is selected at random from the list for each connection request.
+Track Strategy: attempts to connect with each of the provided transports. It keeps track of which transports are connecting successfully and favors using those.
+Minimize Dial Strategy: a transport is chosen based on which has been shown to connect the fastest.
+CoreMLStrategy (Swift version only): uses machine learning to select the best transport based on successful connections and dial time."""
+icon: "https://github.com/OperatorFoundation/Shapeshifter-Swift-Transports/blob/main/shadow.png"
+links:
+- icon: "far fa-copyright"
+  label: "MIT"
+  url: "https://github.com/OperatorFoundation/Shapeshifter-Swift-Transports/blob/main/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/OperatorFoundation/Shapeshifter-Swift-Transports"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/OperatorFoundation/Shapeshifter-Swift-Transports/blob/main/README.md"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/OperatorFoundation/Shapeshifter-Swift-Transports/issues"
+maintainers:
+- name: ""
+  contact: ""
+versions:
+- id: "2.4.2"
+  date: "2021-11-10"
+  url: "https://github.com/OperatorFoundation/Shapeshifter-Swift-Transports/archive/refs/tags/2.4.2.zip"
+languages:
+- name: "Swift"
+---
