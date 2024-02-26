@@ -35,9 +35,9 @@ maintainers:
 - name: "Yawning Angel"
   contact: "https://gitlab.com/yawning"
 versions:
-- id: "v0.0.13"
-  date: "2022-02-04"
-  url: "https://gitlab.com/yawning/obfs4/-/tags/obfs4proxy-0.0.13"
+- id: "v0.0.14"
+  date: "2022-09-04"
+  url: "https://gitlab.com/yawning/obfs4/-/tags/obfs4proxy-0.0.14"
 languages:
 - name: "Go"
 ---
