@@ -20,9 +20,9 @@ links:
   label: "report a problem"
   url: "https://github.com/shadowsocks/shadowsocks-android/issues"
 versions:
-- id: "v5.2.6"
-  date: "2021-17-09"
-  url: "https://github.com/shadowsocks/shadowsocks-android/releases/tag/v5.2.6"
+- id: "v5.3.3"
+  date: "2023-07-02"
+  url: "https://github.com/shadowsocks/shadowsocks-android/releases/tag/v5.3.3"
 languages:
 - name: "Kotlin"
 ---
