@@ -27,9 +27,9 @@ maintainers:
 - name: ""
   contact: ""
 versions:
-- id: "v2.1.0"
-  date: "2022-02-08"
-  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/tags/v2.1.0"
+- id: "v2.9.0"
+  date: "2024-02-05"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/tags/v2.9.0"
 languages:
 - name: "Go"
 ---
