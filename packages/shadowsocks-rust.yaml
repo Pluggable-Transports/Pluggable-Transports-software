@@ -23,9 +23,9 @@ maintainers:
 - name: "Y. T. Chung"
   contact: "zonyitoo@gmail.com"
 versions:
-- id: "v1.13.1"
-  date: "2022-29-01"
-  url: "https://github.com/shadowsocks/shadowsocks-rust/releases/tag/v1.13.1"
+- id: "v1.18.1"
+  date: "2024-18-02"
+  url: "https://github.com/shadowsocks/shadowsocks-rust/releases"
 languages:
 - name: "Rust"
 ---
