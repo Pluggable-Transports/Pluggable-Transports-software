@@ -14,7 +14,7 @@ icon: "https://shadowsocks.org/assets/img/favicon/apple-touch-icon.png"
 links:
 - icon: "fas fa-code-branch"
   label: "repository"
-  url: "https://github.com/shadowsocks/shadowsocks"
+  url: "https://github.com/shadowsocks/shadowsocks/tree/master"
 versions:
 - id: "2.9.1"
   date: "2017-01-02"
