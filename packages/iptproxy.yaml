@@ -28,9 +28,9 @@ maintainers:
 - name: "Benjamin Erhart"
   contact: "berhart@netzarchitekten.com"
 versions:
-- id: "v1.4.0"
-  date: "2021-01-20"
-  url: "https://github.com/tladesignz/IPtProxy/commit/ca6e707555224ba17adfedc7c5aa65eeb987286c"
+- id: "v3.4.0"
+  date: "2024-01-18"
+  url: "https://github.com/tladesignz/IPtProxy/releases/tag/3.4.0"
 languages:
 - name: "Go"
 ---
