@@ -21,7 +21,7 @@ links:
   url: "https://github.com/shadowsocks/shadowsocks-rust/issues"
 maintainers:
 - name: "Y. T. Chung"
-  contact: "zonyitoo@gmail.com"
+  contact: "https://github.com/zonyitoo"
 versions:
 - id: "v1.18.1"
   date: "2024-18-02"
