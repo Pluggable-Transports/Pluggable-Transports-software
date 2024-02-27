@@ -30,7 +30,7 @@ maintainers:
 versions:
 - id: "v0.38.0"
   date: "2022-28-10"
-  url: "https://gitweb.torproject.org/pluggable-transports/meek.git/tree/?h=v0.38.0"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/meek/-/tree/v0.38.0?h=v0.38.0&ref_type=tags0"
 languages:
 - name: "Go"
 ---
