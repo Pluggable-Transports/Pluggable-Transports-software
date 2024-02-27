@@ -1,0 +1,27 @@
+layout: "package"
+permalink: "StarBridge"
+description: "Starbridge is a new Replicant tuned transport which can be used by Lantern or any other circumvention tool implementing the Pluggable Transports specification. The transport will be implemented in Go for compatibility with Lantern’s existing Pluggable Transport codebase."
+icon: "https://github.com/OperatorFoundation/Starbridge-go/blob/main/starbridge.png"
+links:
+- icon: "far fa-copyright"
+  label: "MIT"
+  url: "https://github.com/OperatorFoundation/Starbridge-go/blob/main/Starbridge/v3/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/OperatorFoundation/Starbridge-go"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/OperatorFoundation/Starbridge-go/blob/main/Starbridge/v3/README.md"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/OperatorFoundation/Starbridge-go/issues"
+maintainers:
+- name: "Operator Foundation"
+  contact: "contact@operatorfoundation.org"
+versions:
+- id: "3.0.2"
+  date: "2022-04-27"
+  url: "https://github.com/OperatorFoundation/Starbridge-go/archive/refs/tags/v3.0.2.zip"
+languages:
+- name: "Go"
+---

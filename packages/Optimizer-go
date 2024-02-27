@@ -1,0 +1,35 @@
+layout: "package"
+permalink: "Optimizer-go"
+"description: ""Optimizer
+Optimizer is a pluggable transport that works with your other transports to find the best option. It has multiple configurable strategies to find the optimal choice among the available transports. It can be used for numerous optimization tasks, such as round robin load spreading among multiple transport servers or minimizing latency given multiple transport configurations.
+
+Optimizer supports several built-in strategies, as well as user-defined strategies:
+Rotate Strategy: rotates through the list of provided transports and tries the next one in the list each time a connection is needed.
+Choose Random Strategy: a transport is selected at random from the list for each connection request.
+Track Strategy: attempts to connect with each of the provided transports. It keeps track of which transports are connecting successfully and favors using those.
+Minimize Dial Strategy: a transport is chosen based on which has been shown to connect the fastest.
+CoreMLStrategy (Swift version only): uses machine learning to select the best transport based on successful connections and dial time."""
+icon: "https://github.com/OperatorFoundation/Optimizer-go/blob/main/optimizer.png"
+links:
+- icon: "far fa-copyright"
+  label: "MIT"
+  url: "https://github.com/OperatorFoundation/Optimizer-go/blob/main/Optimizer/v3/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/OperatorFoundation/Optimizer-go"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/OperatorFoundation/Optimizer-go/blob/main/README.md"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/OperatorFoundation/Optimizer-go/issues"
+maintainers:
+- name: "Operator Foundation"
+  contact: "contact@operatorfoundation.org"
+versions:
+- id: "3.0.2"
+  date: "2022-04-27"
+  url: "https://github.com/OperatorFoundation/Optimizer-go/archive/refs/tags/v3.0.2.zip"
+languages:
+- name: "Go"
+---
