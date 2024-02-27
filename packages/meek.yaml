@@ -28,9 +28,9 @@ maintainers:
 - name: "David Fifield"
   contact: "david@bamsoftware.com"
 versions:
-- id: "v0.37.0"
-  date: "2021-09-03"
-  url: "https://gitweb.torproject.org/pluggable-transports/meek.git/tree/?h=v0.37.0"
+- id: "v0.38.0"
+  date: "2022-28-10"
+  url: "https://gitweb.torproject.org/pluggable-transports/meek.git/tree/?h=v0.38.0"
 languages:
 - name: "Go"
 ---
