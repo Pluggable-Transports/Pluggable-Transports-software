@@ -24,12 +24,12 @@ links:
   label: "report a problem"
   url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues"
 maintainers:
-- name: ""
-  contact: ""
+- name: "David F"
+  contact: "dcf@torproject.org"
 versions:
-- id: "v2.1.0"
-  date: "2022-02-08"
-  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/tags/v2.1.0"
+- id: "v2.9.1"
+  date: "2024-02-27"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/tree/v2.9.1?ref_type=tags"
 languages:
 - name: "Go"
 ---
