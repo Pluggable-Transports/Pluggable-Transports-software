@@ -14,7 +14,7 @@ links:
   url: "https://github.com/tladesignz/IPtProxy/blob/master/LICENSE"
 - icon: "fas fa-rss"
   label: "news"
-  url: "https://guardianproject.info/blog"
+  url: "https://github.com/tladesignz/IPtProxy/activity"
 - icon: "fas fa-code-branch"
   label: "repository"
   url: "https://github.com/tladesignz/IPtProxy.git"
