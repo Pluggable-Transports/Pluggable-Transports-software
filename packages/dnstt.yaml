@@ -23,7 +23,7 @@ description: >-
 icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
 links:
 - icon: "far fa-copyright"
-  label: "Public Domain: No Documentation"
+  label: "Public Domain: No Registered License"
   url: ""
 - icon: "fas fa-rss"
   label: "news"
