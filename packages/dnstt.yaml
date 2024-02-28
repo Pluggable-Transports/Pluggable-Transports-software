@@ -23,7 +23,7 @@ description: >-
 icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
 links:
 - icon: "far fa-copyright"
-  label: "Public Domain"
+  label: "Public Domain: No Documentation"
   url: ""
 - icon: "fas fa-rss"
   label: "news"
@@ -33,7 +33,7 @@ links:
   url: "https://www.bamsoftware.com/git/dnstt.git"
 - icon: "fas fa-book"
   label: "package documentation"
-  url: "https://www.bamsoftware.com/software/dnstt/"
+  url: "https://www.bamsoftware.com/software/dnstt/performance.html"
 - icon: "fas fa-bug"
   label: "report a problem"
   url: "https://ntc.party/c/community-software/dnstt/33"
