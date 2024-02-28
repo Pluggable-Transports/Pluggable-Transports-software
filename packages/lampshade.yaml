@@ -1,6 +1,6 @@
 ---
 layout: "package"
-permalink: "lampshade"
+permalink: "Lampshade v0"
 description: >-
   Package lampshade provides a transport between Lantern clients and proxies
   that provides obfuscated encryption as well as multiplexing. The protocol
