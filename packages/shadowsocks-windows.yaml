@@ -2,7 +2,10 @@
 layout: "package"
 permalink: "shadowsocks-windows"
 description: >-
-  A fresh implementation of Shadowsocks in Go.
+  A C# port of shadowsocks
+
+Topics
+c-sharp proxy .
 
   Features:
 

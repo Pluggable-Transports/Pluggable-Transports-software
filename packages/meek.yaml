@@ -26,11 +26,11 @@ links:
   url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/meek/-/issues"
 maintainers:
 - name: "David Fifield"
-  contact: "david@bamsoftware.com"
+  contact: "dcf@torproject.org"
 versions:
-- id: "v0.37.0"
-  date: "2021-09-03"
-  url: "https://gitweb.torproject.org/pluggable-transports/meek.git/tree/?h=v0.37.0"
+- id: "v0.38.0"
+  date: "2022-28-10"
+  url: "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/meek/-/tree/v0.38.0?h=v0.38.0&ref_type=tags"
 languages:
 - name: "Go"
 ---

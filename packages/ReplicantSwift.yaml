@@ -20,9 +20,9 @@ maintainers:
 - name: "Operator Foundation"
   contact: "contact@operatorfoundation.org"
 versions:
-- id: "0.13.17"
-  date: "2021-12-06"
-  url: "https://github.com/OperatorFoundation/ReplicantSwift/archive/refs/tags/0.13.17.zip"
+- id: "2.0.1"
+  date: "2024-20-02"
+  url: "https://github.com/OperatorFoundation/ReplicantSwift/releases/tag/2.0.1"
 languages:
 - name: "Swift"
 ---

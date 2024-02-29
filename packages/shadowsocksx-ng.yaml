@@ -20,9 +20,9 @@ links:
   label: "report a problem"
   url: "https://github.com/shadowsocks/ShadowsocksX-NG/issues"
 versions:
-- id: "v1.9.4"
-  date: "2019-13-11"
-  url: "https://github.com/shadowsocks/ShadowsocksX-NG/releases/tag/v1.9.4"
+- id: "v1.10.2"
+  date: "2023-29-03"
+  url: "https://github.com/shadowsocks/ShadowsocksX-NG/releases/tag/v1.10.2"
 languages:
 - name: "Swift"
 ---

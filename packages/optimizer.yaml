@@ -14,7 +14,7 @@ links:
   url: "https://github.com/OperatorFoundation/shapeshifter-transports/blob/main/LICENSE"
 - icon: "fas fa-code-branch"
   label: "repository"
-  url: "https://github.com/OperatorFoundation/shapeshifter-transports/tree/main/transports/Optimizer/v3"
+  url: "https://github.com/OperatorFoundation/Optimizer-go"
 - icon: "fas fa-book"
   label: "package documentation"
   url: "https://pkg.go.dev/github.com/OperatorFoundation/shapeshifter-transports/transports/Optimizer/v3"
