@@ -1,0 +1,31 @@
+---
+layout: "package"
+permalink: "Replicant-Android"
+description: >-
+  ReplicantAndroid by Operator Foundation is designed for enhancing privacy and security on Android platforms. It encapsulates the complexities of using Go-based pluggable transports like Obfs4proxy and Snowflake on Android, providing an easy-to-install binary with a wrapper around both.
+
+  This project aims to streamline the deployment and usage of pluggable transports on Android, addressing the challenges of integrating Go libraries into Android applications. The focus is on real-world application and ease of use for developers and end-users alike.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "MIT License"
+  url: "No License"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/OperatorFoundation/ReplicantAndroid"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://replicant.us/"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/OperatorFoundation/ReplicantAndroid/issues"
+maintainers:
+- name: ""  # Add maintainer's name
+  contact: ""  # Add maintainer's contact information
+versions:
+- id: "3.0.9"
+  date: "2024-03-01"  # Updated to reflect the last update date
+  url: "https://github.com/OperatorFoundation/ReplicantAndroid/releases/tag/3.0.9"
+languages:
+- name: "Go"
+---
