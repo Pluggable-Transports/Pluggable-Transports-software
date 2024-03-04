@@ -5,7 +5,7 @@ description: >-
   A shadowsocks client for Android.
 
   Shadowsocks is a fast tunnel proxy that helps you bypass firewalls.
-icon: "https://shadowsocks.org/assets/img/favicon/apple-touch-icon.png"
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
 links:
 - icon: "far fa-copyright"
   label: "GPL-3.0"
