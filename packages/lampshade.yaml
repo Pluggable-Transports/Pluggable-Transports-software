@@ -1,6 +1,6 @@
 ---
 layout: "package"
-permalink: "Lampshade v0"
+permalink: "Lampshade"
 description: >-
   Package lampshade provides a transport between Lantern clients and proxies
   that provides obfuscated encryption as well as multiplexing. The protocol
@@ -27,6 +27,13 @@ links:
 - icon: "fas fa-bug"
   label: "report a problem"
   url: "https://github.com/getlantern/lampshade/issues"
+maintainers:
+- name: "Your Maintainer Name Here"
+  contact: "maintainer@example.com"
+versions:
+- id: "0.0.0"
+  date: "2020-03-03"
+  url: "https://github.com/getlantern/lampshade/releases/tag/v0.0.0"
 languages:
 - name: "Go"
 ---
