@@ -10,7 +10,7 @@ description: >-
   which decrypts and forwards to the target. Replies from target are similarly
   encrypted and relayed by ss-remote back to ss-local, which decrypts and
   eventually returns to the original client.
-icon: "https://shadowsocks.org/assets/img/favicon/apple-touch-icon.png"
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
 links:
 - icon: "fas fa-code-branch"
   label: "repository"
