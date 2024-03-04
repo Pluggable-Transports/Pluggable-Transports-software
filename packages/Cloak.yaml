@@ -1,0 +1,31 @@
+---
+layout: "package"
+permalink: "Cloak"
+description: >-
+  Cloak enhances traditional proxy tools like OpenVPN to evade sophisticated censorship and data discrimination. It masquerades proxied traffic as normal web browsing, making it difficult for censorship mechanisms to block it without also affecting essential services. Cloak servers appear as regular web servers, employing cryptographic steganography to hide traffic patterns. It supports multiple users and traffic management features, and can tunnel through CDN services like Amazon Cloudfront, further obfuscating traffic.
+
+  This tool is compatible with any TCP or UDP-based proxy, such as Shadowsocks, OpenVPN, and Tor, and allows for minimal configuration from the user. Cloak's approach to multiplexing traffic and its ability to mimic legitimate web traffic patterns make it a robust tool in the fight against internet censorship.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "GPL-3.0"
+  url: "https://github.com/cbeuw/Cloak/blob/master/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/cbeuw/Cloak"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/cbeuw/Cloak#readme"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/cbeuw/Cloak/issues"
+maintainers:
+- name: "cbeuw"
+  contact: ""  
+versions:
+- id: "v2.8.0"
+  date: "2023-02-09"
+  url: "https://github.com/cbeuw/Cloak/releases/tag/v2.8.0"
+languages:
+- name: "Go"
+---
