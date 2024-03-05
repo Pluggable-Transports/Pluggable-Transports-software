@@ -14,7 +14,7 @@ description: >-
   - TCP tunneling (e.g. benchmark with iperf3)
   - SIP003 plugins
   - Replay attack mitigation
-icon: "https://shadowsocks.org/assets/img/favicon/apple-touch-icon.png"
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
 links:
 - icon: "far fa-copyright"
   label: "Apache-2.0"

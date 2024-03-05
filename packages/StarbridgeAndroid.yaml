@@ -1,0 +1,25 @@
+---
+layout: "package"
+permalink: "StarbridgeAndroid"
+description: >-
+  StarbridgeAndroid, developed by the Operator Foundation, is a Pluggable Transport for Android that simplifies the configuration process for users. Utilizing Replicant Pluggable Transport technology for network protocol obfuscation, Starbridge offers an accessible entry point for those seeking to circumvent Internet censorship with minimal setup.
+
+  Starbridge is part of the Shapeshifter project, which aims to provide network protocol shapeshifting technology to evade network filtering. Designed for Kotlin developers on Android, StarbridgeAndroid integrates seamlessly, offering various shapeshifting methods to disguise application traffic and bypass network restrictions.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/OperatorFoundation/StarbridgeAndroid"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/OperatorFoundation/StarbridgeAndroid/blob/master/README.md"
+maintainers:
+- name: ""  
+  contact: ""  
+versions:
+- id: "v1.0.6"  
+  date: "2024-03-01"  
+  url: "https://github.com/OperatorFoundation/StarbridgeAndroid/releases/tag/1.0.6"  
+languages:
+- name: "Kotlin"
+---

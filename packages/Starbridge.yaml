@@ -1,0 +1,31 @@
+---
+layout: "package"
+permalink: "Starbridge"
+description: >-
+  Starbridge, developed by Operator Foundation, is a Pluggable Transport designed for minimal configuration, utilizing Replicant technology for network protocol obfuscation. Ideal for circumventing Internet censorship with minimal setup, Starbridge implements the Pluggable Transports 3.0, specifically the Swift Transports API v3.0, making it a prime choice for integration into applications requiring robust shapeshifting capabilities.
+
+  The project aims to provide a user-friendly approach to network traffic obfuscation, ensuring accessibility for users in restricted environments. Starbridge's integration of Replicant's advanced obfuscation techniques with a simplified configuration process represents a significant advancement in the field of Internet freedom technologies.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "MIT License"
+  url: "https://github.com/OperatorFoundation/Starbridge/blob/master/LICENSE"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/OperatorFoundation/Starbridge"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/OperatorFoundation/Starbridge#readme"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/OperatorFoundation/Starbridge/issues"
+maintainers:
+- name: "Operator Foundation"
+  contact: "contact@operatorfoundation.org"
+versions:
+- id: "1.2.0"
+  date: "2023-02-19"
+  url: "https://github.com/OperatorFoundation/Starbridge/releases/tag/1.0.0"
+languages:
+- name: "Swift"
+---
