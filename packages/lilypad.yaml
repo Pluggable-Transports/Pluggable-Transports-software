@@ -1,0 +1,32 @@
+---
+layout: "package"
+permalink: "WIP: Lilypad (Hopping PT)"
+description: >-
+  Lilypad is put together using the float configuration management toolkit for container-based services. It is a series of Ansible plugins and roles glued together to provide a simple container-oriented environment. This can be rolled into your own Ansible configuration, or used separately.
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "Other"
+  url: "https://raw.githubusercontent.com/gnu-octave/pkg-example/main/doc/icon.png"
+- icon: "fas fa-rss"
+  label: "news"
+  url: "https://0xacab.org/leap/container-platform/lilypad/activity"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://0xacab.org/leap/container-platform/lilypad"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://0xacab.org/leap/container-platform/lilypad/-/blob/main/README.md"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://0xacab.org/leap/container-platform/lilypad/-/issues"
+maintainers:
+- name: ""
+  contact: ""
+versions:
+- id: "2.0.0"
+  date: "2024-03-04"
+  url: "https://0xacab.org/leap/container-platform/lilypad/-/tree/2.0.0RC1?ref_type=tags"
+languages:
+- name: "Go"
+---
