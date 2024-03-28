@@ -1,0 +1,32 @@
+---
+layout: "package"
+permalink: "shapeshifter-dispatcher"
+description: >-Shapeshifter Dispatcher converts Pluggable Transports that implement the Go API from the Pluggable Transports 2.1 specification into proxies usable by applications. Several proxy modes are provided, including proxying of both TCP and UDP traffic.
+  
+icon: "https://github.com/Pluggable-Transports/Pluggable-Transports-software/raw/main/assets/pkg.png"
+links:
+- icon: "far fa-copyright"
+  label: "MIT"
+  url: "https://github.com/OperatorFoundation/shapeshifter-dispatcher/blob/main/LICENSE"
+- icon: "fas fa-rss"
+  label: "news"
+  url: "https://github.com/OperatorFoundation/shapeshifter-dispatcher/activity"
+- icon: "fas fa-code-branch"
+  label: "repository"
+  url: "https://github.com/OperatorFoundation/shapeshifter-dispatcher"
+- icon: "fas fa-book"
+  label: "package documentation"
+  url: "https://github.com/OperatorFoundation/shapeshifter-dispatcher/tree/main/doc"
+- icon: "fas fa-bug"
+  label: "report a problem"
+  url: "https://github.com/OperatorFoundation/shapeshifter-dispatcher/issues"
+maintainers:
+- name: ""
+  contact: ""
+versions:
+- id: "v3.0.1"
+  date: "06-30-2022"
+  url: "https://github.com/OperatorFoundation/shapeshifter-dispatcher/releases/tag/v3.0.1"
+languages:
+- name: "GO"
+---
